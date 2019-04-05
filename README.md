@@ -5,4 +5,4 @@
 * Ripository: https://github.com/genkuroki/DifferentialEquations
 
 * Copyright 2019 Gen Kuroki
-* License: [MIT License](https://opensource.org/licenses/MIT)
+* License: [The MIT License](https://opensource.org/licenses/MIT)
