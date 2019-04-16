@@ -11,6 +11,7 @@
 
 * [01-1 Van der Pol oscillator](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/01-1%20Van%20der%20Pol%20oscillator.ipynb)
 * [02-1 Boundary value problems (linear ODE case)](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/02-1%20Boundary%20value%20problems%20(linear%20ODE%20case).ipynb)
+* [A01 Solving heat, KdV, Schroedinger, and Smith eqations by in-place FFT](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/A01%20Solving%20heat%2C%20KdV%2C%20Schroedinger%2C%20and%20Smith%20eqations%20by%20in-place%20FFT.ipynb)
 
 ## Julia Language
 
