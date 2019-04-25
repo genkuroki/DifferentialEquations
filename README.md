@@ -10,7 +10,7 @@
 
 * [すべてをまとめたPDF](https://genkuroki.github.io/documents/DifferentialEquations/DifferentialEquations.pdf)
 * [01-1 Van der Pol oscillator](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/01-1%20Van%20der%20Pol%20oscillator.ipynb)
-([PDF](https://genkuroki.github.io/documents/DifferentialEquations/1-1%20Van%20der%20Pol%20oscillator.pdf))
+([PDF](https://genkuroki.github.io/documents/DifferentialEquations/01-1%20Van%20der%20Pol%20oscillator.pdf))
 * [02-1 Boundary value problems (linear ODE case)](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/02-1%20Boundary%20value%20problems%20(linear%20ODE%20case).ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/02-1%20Boundary%20value%20problems%20(linear%20ODE%20case).pdf))
 * [07-1 Linear homogeneous ODEs with constant coefficients](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/07-1%20Linear%20homogeneous%20ODEs%20with%20constant%20coefficients.ipynb)
