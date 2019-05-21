@@ -15,6 +15,8 @@
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/02-1%20Boundary%20value%20problems%20(linear%20ODE%20case).pdf))
 * [07-1 Linear homogeneous ODEs with constant coefficients](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/07-1%20Linear%20homogeneous%20ODEs%20with%20constant%20coefficients.ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/07-1%20Linear%20homogeneous%20ODEs%20with%20constant%20coefficients.pdf))
+* [08-1 Linear inhomogeneous ODEs with constant coefficients](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/07-1%20Linear%20homogeneous%20ODEs%20with%20constant%20coefficients.ipynb)
+([PDF](https://genkuroki.github.io/documents/DifferentialEquations/08-1%20Linear%20inhomogeneous%20ODEs%20with%20constant%20coefficients.pdf))
 * [A01 Solving heat, KdV, Schroedinger, and Smith eqations by in-place FFT](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/A01%20Solving%20heat%2C%20KdV%2C%20Schroedinger%2C%20and%20Smith%20eqations%20by%20in-place%20FFT.ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/A01%20Solving%20heat%2C%20KdV%2C%20Schroedinger%2C%20and%20Smith%20eqations%20by%20in-place%20FFT.pdf))
 * [A02 Diagonalization of Cartan matrices of classical types](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/A02%20Diagonalization%20of%20Cartan%20matrices%20of%20classical%20types.ipynb)
