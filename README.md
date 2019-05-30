@@ -13,6 +13,8 @@
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/01-1%20Van%20der%20Pol%20oscillator.pdf))
 * [02-1 Boundary value problems (linear ODE case)](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/02-1%20Boundary%20value%20problems%20(linear%20ODE%20case).ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/02-1%20Boundary%20value%20problems%20(linear%20ODE%20case).pdf))
+* [04-1 Riccati equation](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/04-1%20Riccati%20equation.ipynb)
+([PDF](https://genkuroki.github.io/documents/DifferentialEquations/04-1%20Riccati%20equation.pdf))
 * [07-1 Linear homogeneous ODEs with constant coefficients](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/07-1%20Linear%20homogeneous%20ODEs%20with%20constant%20coefficients.ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/07-1%20Linear%20homogeneous%20ODEs%20with%20constant%20coefficients.pdf))
 * [08-1 Linear inhomogeneous ODEs with constant coefficients](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/08-1%20Linear%20inhomogeneous%20ODEs%20with%20constant%20coefficients.ipynb)
