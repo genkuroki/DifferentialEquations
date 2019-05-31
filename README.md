@@ -33,3 +33,9 @@
 [Julia言語](https://julialang.org/) 環境の整備の仕方については次を参照せよ:
 
 * [Julia v1.1.0 の Windows 8.1 へのインストール](https://nbviewer.jupyter.org/github/genkuroki/msfd28/blob/master/install.ipynb)
+
+## Wolfram Language
+
+[Free Wolfram Engine](https://www.wolfram.com/engine/) を [Jupyter環境](https://jupyter.org/) で使う方法については次の文書を参照せよ:
+
+* [Free Wolfram EngineをJupyterで使う方法](https://nbviewer.jupyter.org/github/genkuroki/msfd28/blob/master/Free%20Wolfram%20Engine.ipynb)
