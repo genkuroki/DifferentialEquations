@@ -26,7 +26,8 @@
 * [A02 Diagonalization of Cartan matrices of classical types](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/A02%20Diagonalization%20of%20Cartan%20matrices%20of%20classical%20types.ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/A01%20Solving%20heat%2C%20KdV%2C%20Schroedinger%2C%20and%20Smith%20eqations%20by%20in-place%20FFT.pdf))
 * How to solve differential equations
-([PDF](https://genkuroki.github.io/documents/DifferentialEquations/How%20to%20solve%20differential%20equations.pdf))
+([PDF](https://genkuroki.github.io/documents/DifferentialEquations/How%20to%20solve%20differential%20equations.pdf),
+[PDF](https://github.com/genkuroki/DifferentialEquations/blob/master/How%20to%20solve%20differential%20equations.pdf))
 
 ## Julia Language
 
