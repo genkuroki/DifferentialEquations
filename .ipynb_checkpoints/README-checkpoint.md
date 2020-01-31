@@ -1,7 +1,7 @@
 # DIfferentialEquations
 
 * Author: 黒木 玄
-* Date: 2019-04-05～2019-04-24
+* Date: 2019-04-05～2019-06-05
 * Ripository: https://github.com/genkuroki/DifferentialEquations
 * Copyright 2019 Gen Kuroki
 * License: [The MIT License](https://opensource.org/licenses/MIT)
@@ -19,10 +19,15 @@
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/07-1%20Linear%20homogeneous%20ODEs%20with%20constant%20coefficients.pdf))
 * [08-1 Linear inhomogeneous ODEs with constant coefficients](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/08-1%20Linear%20inhomogeneous%20ODEs%20with%20constant%20coefficients.ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/08-1%20Linear%20inhomogeneous%20ODEs%20with%20constant%20coefficients.pdf))
+* [09-1 Matrix exponential](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/09-1%20Matrix%20exponential.ipynb)
+([PDF](https://genkuroki.github.io/documents/DifferentialEquations/09-1%20Matrix%20exponential.pdf))
 * [A01 Solving heat, KdV, Schroedinger, and Smith eqations by in-place FFT](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/A01%20Solving%20heat%2C%20KdV%2C%20Schroedinger%2C%20and%20Smith%20eqations%20by%20in-place%20FFT.ipynb)
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/A01%20Solving%20heat%2C%20KdV%2C%20Schroedinger%2C%20and%20Smith%20eqations%20by%20in-place%20FFT.pdf))
 * [A02 Diagonalization of Cartan matrices of classical types](https://nbviewer.jupyter.org/github/genkuroki/DifferentialEquations/blob/master/A02%20Diagonalization%20of%20Cartan%20matrices%20of%20classical%20types.ipynb)
-([PDF](https://genkuroki.github.io/documents/DifferentialEquations/A01%20Solving%20heat%2C%20KdV%2C%20Schroedinger%2C%20and%20Smith%20eqations%20by%20in-place%20FFT.pdf))
+([PDF](https://genkuroki.github.io/documents/DifferentialEquations/A02%20Diagonalization%20of%20Cartan%20matrices%20of%20classical%20types.pdf))
+* How to solve differential equations
+([PDF](https://genkuroki.github.io/documents/DifferentialEquations/How%20to%20solve%20differential%20equations.pdf),
+[PDF@github](https://github.com/genkuroki/DifferentialEquations/blob/master/How%20to%20solve%20differential%20equations.pdf))
 
 ## Julia Language
 
