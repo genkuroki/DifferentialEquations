@@ -1,4 +1,4 @@
-# DIfferentialEquations
+# DifferentialEquations
 
 * Author: 黒木 玄
 * Date: 2019-04-05～2019-06-05
