@@ -8,18 +8,18 @@ jupyter:
       format_version: '1.1'
       jupytext_version: 1.2.1
   kernelspec:
-    display_name: Julia 1.2.0
+    display_name: Julia 1.4.2
     language: julia
-    name: julia-1.2
+    name: julia-1.4
 ---
 
 # FFTを用いた偏微分方程式の数値解法(in-place版)
 
 黒木玄
 
-2018-01-23～2019-08-27
+2018-01-23～2020-06-28
 
-* Copyrigtht 2018, 2019 Gen Kuroki
+* Copyrigtht 2018, 2019, 2020 Gen Kuroki
 * License: MIT https://opensource.org/licenses/MIT
 
 $
@@ -171,7 +171,7 @@ end
 
 # FFT Data
 #
-mutable struct FFT_Data{T<:Real, S}
+struct FFT_Data{T<:Real, S}
     K::T
     L::T
     N::Int64
@@ -562,7 +562,7 @@ $$
 ```julia
 # V はポテンシャル函数
 #
-mutable struct Schroedinger_Data{T, S, R}
+struct Schroedinger_Data{T, S, R}
     o::FFT_Data{T,S}
     V::R
     v::Array{T,1}
@@ -676,7 +676,7 @@ $$
 などを参照せよ.
 
 ```julia
-mutable struct GaussianPacket{T<:Real}
+struct GaussianPacket{T<:Real}
     x₀::T
     p₀::T
     σ::T
