@@ -8,16 +8,16 @@ jupyter:
       format_version: '1.1'
       jupytext_version: 1.2.1
   kernelspec:
-    display_name: Julia 1.4.2
+    display_name: Julia 1.6.0-DEV depwarn -O3
     language: julia
-    name: julia-1.4
+    name: julia-1.6-o3-depwarn
 ---
 
 # FFTを用いた偏微分方程式の数値解法(in-place版)
 
 黒木玄
 
-2018-01-23～2020-06-28
+2018-01-23～2020-06-28, 2020-09-28
 
 * Copyrigtht 2018, 2019, 2020 Gen Kuroki
 * License: MIT https://opensource.org/licenses/MIT
@@ -73,6 +73,10 @@ function displayfile(mimetype, file)
         display("text/html", """<img src="data:$mimetype;base64,$base64text">""")
     end
 end
+```
+
+```julia
+isdefined(FFTW, :libfftw3) && println(FFTW.libfftw3)
 ```
 
 ```julia
