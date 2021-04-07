@@ -8,9 +8,9 @@ jupyter:
       format_version: '1.1'
       jupytext_version: 1.2.1
   kernelspec:
-    display_name: Julia 1.6.0-DEV depwarn -O3
+    display_name: Julia 1.7.0-DEV depwarn -O3
     language: julia
-    name: julia-1.6-o3-depwarn
+    name: julia-1.7-depwarn-o3
 ---
 
 # FFTを用いた偏微分方程式の数値解法(in-place版)
@@ -143,7 +143,7 @@ $$
 
 `k_axis(N)` は波数空間(波数軸)の離散化を意味する. 上の数式を使った解説より, $k_axis(N)$ は右半開区間 $[0, N/2)$ と $[-N/2,0)$ の離散化をその順序で連結したものにしなければいけない.
 
-`o = FFT_Data(K, N)` 型のとき, `o` は $K=2\pi K$ のときの周期境界条件が課された $[-L/2, L/2)$ の $N$ 等分を $x$ 軸の離散化とみなしたときの, 高速Fourier変換関係のデータになる.
+`o = FFT_Data(K, N)` 型のとき, `o` は $L=2\pi K$ のときの周期境界条件が課された $[-L/2, L/2)$ の $N$ 等分を $x$ 軸の離散化とみなしたときの, 高速Fourier変換関係のデータになる.
 
 * `o.K` は $K$ になる. 
 * `o.L` は $x$ 軸方向の周期の長さ $2\pi K$ になる.
