@@ -44,10 +44,6 @@
 
 # %% slideshow={"slide_type": "-"}
 using PyPlot: PyPlot, plt
-IJulia.push_postexecute_hook(PyPlot.display_figs)
-IJulia.pop_postexecute_hook(PyPlot.display_figs)
-IJulia.push_postexecute_hook(PyPlot.close_figs)
-plt.plot();
 
 # %% slideshow={"slide_type": "-"}
 function plot_stream(f, g;
@@ -73,8 +69,7 @@ function plot_vector_field(f, g;
         figtitle="", scale=2.0, sign=1.0)
     
     # meshgrid
-    xx = repeat(x', length(y), 1)
-    yy = repeat(y, 1, length(x))
+    xx, yy = reim(complex.(x', y))
     XX = f.(xx, sign*yy)
     YY = g.(xx, sign*yy) * sign
     MM = maximum(@.(√(XX^2+YY^2)))
@@ -101,7 +96,7 @@ end
 # %% [markdown] slideshow={"slide_type": "slide"}
 # ## Van der Pol 方程式のベクトル場と流れの図
 #
-# $v = \ddot{x}$ とおくと, Van der Pol 方程式は次の連立常微分方程式に書き直される:
+# $v = \dot{x}$ とおくと, Van der Pol 方程式は次の連立常微分方程式に書き直される:
 #
 # $$
 # \begin{cases}
@@ -110,7 +105,7 @@ end
 # \end{cases}
 # $$
 #
-# この微分方程式は位置 $x$ と速度 $v$ を平面上の点 $(x,v)$ で表すとき, その点の動きの速度ベクトルが $(v, \eps(1-x^2)v-x$ となることを意味している.  平面上の各点にその点における速度ベクトルを対応させる函数を平面上の **ベクトル場** と呼ぶ. 上の連立常微分方程式はベクトル場に沿って平面上の点が流れて行く様子を表している.
+# この微分方程式は位置 $x$ と速度 $v$ を平面上の点 $(x,v)$ で表すとき, その点の動きの速度ベクトルが $(v, \mu(1-x^2)v-x)$ となることを意味している.  平面上の各点にその点における速度ベクトルを対応させる函数を平面上の **ベクトル場** と呼ぶ. 上の連立常微分方程式はベクトル場に沿って平面上の点が流れて行く様子を表している.
 
 # %% slideshow={"slide_type": "-"}
 function plot_Van_der_Pol(μ; scale=1/√abs(μ), sign=1.0)
@@ -227,12 +222,12 @@ end
 
 function plot_vanderpol_sol(sol, μ; l1=:best, l2=:best)
     plot(size=(600, 250))
-    plot!(sol, label=["x", "v"], legend=l1, lw=1)
+    plot!(sol, label=["x" "v"], legend=l1, lw=1)
     title!("Van der Pol equation (mu = $μ)", titlefontsize=12) |> display
     
     plot(size=(300, 300))
     plot!(sol, vars=(1,2), label="(x,v)", legend=l2, lw=1)
-    title!("Van der Pol equation (mu = $μ)", titlefontsize=12) |> display
+    title!("Van der Pol equation (mu = $μ)", titlefontsize=10) |> display
 end
 
 function solve_and_plot_vanderpol(; μ=0.5, x0=0.1, v0=0.0, tmax=50.0, l1=:topleft, l2=:best)
