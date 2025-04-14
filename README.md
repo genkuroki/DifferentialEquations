@@ -29,7 +29,7 @@
 ([PDF](https://genkuroki.github.io/documents/DifferentialEquations/How%20to%20solve%20differential%20equations.pdf),
 [PDF@github](https://github.com/genkuroki/DifferentialEquations/blob/master/How%20to%20solve%20differential%20equations.pdf))
 
-## Julia Language
+## Julia言語
 
 [Julia言語](https://julialang.org/) と [Jupyter環境](https://jupyter.org/) の簡単な解説については次を参照せよ:
 
@@ -39,7 +39,7 @@
 
 * [Julia v1.1.0 の Windows 8.1 へのインストール](https://nbviewer.jupyter.org/github/genkuroki/msfd28/blob/master/install.ipynb)
 
-## Wolfram Language
+## Wolfram言語
 
 [Free Wolfram Engine](https://www.wolfram.com/engine/) を [Jupyter環境](https://jupyter.org/) で使う方法については次の文書を参照せよ:
 
