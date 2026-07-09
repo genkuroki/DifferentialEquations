@@ -1,0 +1,1 @@
+Gemini Proでpdfをhtmlに変換し、htmlをChromeでの印刷でpdfに変換した結果。
