@@ -8,15 +8,15 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.10.3
   kernelspec:
-    display_name: Julia 1.9.0
+    display_name: Julia
     language: julia
-    name: julia-1.9
+    name: julia
 ---
 
 # 古典型Cartan行列の対角化
 
 * Author: 黒木玄
-* Date: 2019-04-09～2019-05-11, 2023-01-14, 2023-05-30
+* Date: 2019-04-09～2019-05-11, 2023-01-14, 2023-05-30, 2026-0-29
 * Copyright 2019,2023 Gen Kuroki
 * License: [The MIT License](https://opensource.org/licenses/MIT)
 * [Jupyter notebook version](https://nbviewer.org/github/genkuroki/DifferentialEquations/blob/master/A02%20Diagonalization%20of%20Cartan%20matrices%20of%20classical%20types.ipynb)
@@ -210,7 +210,7 @@ $$
 
 が成立することである. この定数係数の線形漸化式の解空間は常に2次元になるので, $A$ の固有空間の次元も常に2次元になる.
 
-$\alpha\ne\pm 2$ のとき, $z$ に関する2次方程式 $z^2-\alpha z-1=0$ は異なる2つの解を持ち, その片方を $z$ とするともう一方は $z^{-1}$ になり, $z\ne \pm 1$ となる.  逆に, $z\ne\pm 1$ のとき, $\alpha=z+z^{-1}$ とおくと, $\alpha\ne\pm 2$ となる. (例: $\alpha=0$ のとき, $z^{\pm1}=\pm i$.)
+$\alpha\ne\pm 2$ のとき, $z$ に関する2次方程式 $z^2-\alpha z+1=0$ は異なる2つの解を持ち, その片方を $z$ とするともう一方は $z^{-1}$ になり, $z\ne \pm 1$ となる.  逆に, $z\ne\pm 1$ のとき, $\alpha=z+z^{-1}$ とおくと, $\alpha\ne\pm 2$ となる. (例: $\alpha=0$ のとき, $z^{\pm1}=\pm i$.)
 
 ゆえに, $A$ の固有値 $\alpha=z+z^{-1}\ne\pm 2$ の固有空間の基底として, $x_j = z^j, z^{-j}$ が取れる:
 
